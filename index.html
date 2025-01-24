@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYY暴打ZPP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="score-board">
+            <div class="score">得分: <span id="score">0</span></div>
+            <div class="health">ZPP生命值: <span id="health">100</span></div>
+        </div>
+        
+        <div class="arena">
+            <div class="character myy" id="myy"></div>
+            <div class="character zpp" id="zpp"></div>
+        </div>
+
+        <div class="controls">
+            <div class="keyboard-layout">
+                <div class="key-row">
+                    <button id="up">↑</button>
+                </div>
+                <div class="key-row">
+                    <button id="left">←</button>
+                    <button id="down">↓</button>
+                    <button id="right">→</button>
+                </div>
+            </div>
+            <button id="attack" class="attack-button">👊</button>
+        </div>
+        <div class="keyboard-hint">
+            使用键盘方向键移动，空格键攻击
+        </div>
+    </div>
+    <audio id="hitSound" src="data:audio/wav;base64,UklGRqgAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YYQAAAAeAAAAhwAAAHsAAADwAAAA/wAAAP4AAAD/AAAA/wAAAP8AAAD+AAAA/wAAAP8AAAD/AAAA/gAAAP8AAAD/AAAA/wAAAP4AAAD/AAAA/wAAAP8AAAD+AAAA/wAAAP8AAAD/AAAA/gAAAP8AAAD/AAAA/wAAAIcAAAB7AAAA8AAAAA==" preload="auto"></audio>
+    <audio id="punchSound" src="data:audio/wav;base64,UklGRpQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YXAAAAB+AAAAhwAAAO8AAAD+AAAA/wAAAP4AAAD/AAAA/wAAAP8AAAD+AAAA/wAAAP8AAAD/AAAA/gAAAP8AAAD/AAAA/wAAAP4AAAD/AAAA/wAAAP8AAAD+AAAA/wAAAP8AAAD/AAAAhwAAAHsAAADwAAAA" preload="auto"></audio>
+    <script src="game.js"></script>
+</body>
+</html> 
