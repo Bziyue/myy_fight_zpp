@@ -8,4 +8,4 @@
 - 击败ZPP获得胜利
 
 ## 在线游玩
-访问 https://Bziyue.github.io/myy_fight_zpp 即可开始游戏！ 
+访问 https://bziyue.github.io/myy_fight_zpp 即可开始游戏！ 
